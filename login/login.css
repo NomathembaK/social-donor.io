@@ -1,0 +1,281 @@
+  /* ==============Nav================= */
+  
+  nav{ 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: cornsilk;
+  }
+  
+  input .input {
+      position: initial;
+      width: 20%;
+      height: 30%;
+  }
+  
+  ul{
+    display: flex;
+    width: 60%;
+    justify-content: space-between;
+    list-style-type: none; 
+    margin-block: 0;
+    }
+  
+  body{
+      background-color: rgb(255, 255, 255);
+  }
+  
+  .images{
+      position: relative; 
+      top: -125px;
+  }
+  
+  
+  .right-nav{ 
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(233, 15, 15);
+  }
+  
+  .input{
+    justify-content: space-around;
+  
+  }
+  
+  .navi-links{
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+  }
+
+ 
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li .na-link{
+  text-decoration: none;
+  display: flex;
+  color: black;
+  padding: 20px;
+}
+
+li .na-link:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(223, 120, 120);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row {
+   display: flex;
+   justify-content: center;
+}
+  
+.column {
+   flex: 33.33%;
+   padding: 5px;
+  }
+ 
+.back{
+  background-color: rgb(255, 255, 255) ;
+
+}
+
+h1 {
+    background-color: rgb(233, 15, 15);
+    margin-left: 1px;
+    width: 790px;
+    padding-top: 300px;
+    text-align: center;
+    /* margin-right: 50%; */
+    padding: 5px;
+    width: 740px;
+  }
+
+
+.container {
+  margin-left: 400px;
+  padding: auto;
+  margin-top: 100px
+
+
+}
+
+
+.logs {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.login-box {
+   background-color: rgb(197, 107, 107);
+   padding-bottom: 0px;
+   padding: auto;
+   margin: 30px auto;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+button{
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  padding: 20px;
+  color: #ffffff;
+  border: none;
+  background-color: rgb(252, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+ /* ======================footer section================= */
+ .footer{
+    position: absolute;
+    bottom: -550px;
+    width: 1200px;
+    height: 300px;   /* Height of the footer */
+    padding: 150px;
+    background-color: red;
+  }
+  
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-items{
+    display: flex;
+  }
+  
+  .diff-links{
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  .headings{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .extra-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  input .sub{
+    width: 100%;
+  }
+  
+  .footer-sub {
+    font-size:  20px;
+  }
+   
+  input {
+    width: 250px;
+    padding: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form a {
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .last-footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons {
+    justify-content: space-between;
+  }
+
+/* ---==== */
+
+form input[type="password"] {
+  padding: 5px 5px;
+  border-bottom: 0.1rem solid #999;
+  margin-bottom: 1.5rem;
+}
+
+form input[type="password"]:hover {
+  border-bottom-color: #444;
+}
+
+form input[type="password"]:focus {
+  border-bottom-color: #4b7bec;
+}
+
+.password-meter {
+  width: 100%;
+}
+
+.password-meter__bar {
+  width: 33.333%;
+  height: 1rem;
+  background: #eee;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.password-meter__bar__inner {
+  width: 0;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.password-meter__label {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+.password-meter__label span {
+  font-weight: bold;
+}
+
+   

@@ -1,0 +1,300 @@
+
+  body{
+        margin: 0%;
+        padding: 0%;
+  }
+  
+  a{
+    text-decoration: none;
+    color: #f2f2f2;
+  }
+  
+  /* ==============Nav================= */
+  
+nav{ 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: cornsilk;
+}
+
+input {
+   margin-top: 20px;
+   margin-right: 10px;
+    width: 20%;
+    height: 30%;
+}
+
+ul{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  list-style-type: none; 
+  margin-block: 0;
+  }
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.images{
+    position: relative; 
+    top: -125px;
+}
+
+
+.right-nav{ 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(233, 15, 15);
+}
+
+.input{
+  justify-content: space-around;
+
+}
+
+.navi-links{
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px;
+  list-style-type: none;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li .na-link{
+  text-decoration: none;
+  display: flex;
+  color: black;
+  padding: 20px;
+}
+
+li .na-link:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(223, 120, 120);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+  }
+
+.row {
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+  
+.column {
+   display: flex;
+   justify-content: initial;
+   padding: 5px;
+   position: relative;
+  }
+
+.sample{
+  display: flex;
+  justify-content: left;
+
+}
+
+.para{
+  padding-left: 20px;
+  justify-content: center;
+
+}
+ 
+.Blood {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 50px;
+  padding: 50PX;
+  background-color: #e77272;
+}
+
+section h1 {
+  justify-content:center;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-right: 10px;
+
+}
+
+.h1 {
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.donations {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  padding: 50PX;
+  background-color: #ffffff;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  gap: 180px;
+  padding: 50px;
+  color: black;
+  background-color:rgb(240, 14, 14);
+
+}
+
+h1{
+  margin: 55px;
+}
+
+.container {
+  padding: 100px;
+  height: 1200px;
+  background-color: #e77272;
+}
+
+.drive {
+  position: relative;
+  bottom: 500px;
+  float: right;
+
+}
+
+
+      /* =====  Styling The Popup ====== */
+      .popup{
+        background-color: #ffffff;
+        width: 450px;
+        padding: 10px 30px;
+        position: absolute;
+        transform: translate(-50%,-50%);
+        left: 50%;
+        top: 50%;
+        border-radius: 8px;
+        font-family: "Poppins",sans-serif;
+        display: none;
+        text-align: center;
+      }
+      
+      .popup button{
+        display: block;
+        margin:  0 0 20px auto;
+        background-color: transparent;
+        font-size: 30px;
+        color: #c5c5c5;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+      
+      .popup p{
+        font-size: 14px;
+        text-align: justify;
+        margin: 20px 0;
+        line-height: 25px;
+      }
+      
+      .popup a{
+        display: block;
+        width: 150px;
+        position: relative;
+        margin: 10px auto;
+        text-align: center;
+        background-color: #0f72e5;
+        color: #ffffff;
+        text-decoration: none;
+        padding: 5px 0;
+      }
+      
+
+
+/* ======================footer section================= */
+.footer{
+ position: absolute;
+ top: 2900px;
+ width: 1220px;
+ height: 300px;   /* Height of the footer */
+ padding: 150px;
+ background-color: red;
+
+}
+
+
+.footer-list{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-items{
+  display: flex;
+}
+
+.diff-links{
+  text-decoration: none;
+  display: flex;
+  color: black;
+}
+
+.headings{
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.extra-info {
+  display: flex;
+  flex-direction: column;
+}
+
+
+input .sub{
+  width: 100%;
+}
+
+.footer-sub {
+  font-size:  20px;
+}
+ 
+input {
+  width: 250px;
+  padding: 5px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form a {
+  background-color: rgb(0, 0, 0);
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.last-footer {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icons {
+  justify-content: space-between;
+}
+

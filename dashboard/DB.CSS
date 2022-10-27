@@ -1,0 +1,259 @@
+  /* ==============Nav================= */
+  
+nav{ 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: cornsilk;
+}
+
+input {
+    width: 20%;
+    height: 30%;
+}
+
+ul{
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  list-style-type: none; 
+  margin-block: 0;
+  }
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.images{
+    position: relative; 
+    top: -125px;
+}
+
+
+.right-nav{ 
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: rgb(233, 15, 15);
+}
+
+.input{
+  justify-content: space-around;
+
+}
+
+.navi-links{
+  display: flex;
+  /* flex-direction: column; */
+  width: 100%;
+  justify-content: space-around;
+  padding: 10px;
+  list-style-type: none;
+}
+
+ul{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li .na-link{
+  text-decoration: none;
+  display: flex;
+  color: black;
+  padding: 20px;
+}
+
+li .na-link:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(223, 120, 120);
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+.row {
+   display: flex;
+   justify-content: center;
+}
+  
+.column {
+   flex: 33.33%;
+   padding: 5px;
+  }
+
+.Blood {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+  padding: 50PX;
+  background-color: #e77272;
+}
+
+button {
+  background-color: #ffffff; /* Green */
+  border: none;
+  color: white;
+  text-decoration: #e77272;
+  height: 30px;
+  padding: 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+h1{
+    text-align: center;
+}
+
+.boxes{
+    display: grid;
+    grid-template-columns: 210px 210px 210px 210px;
+    gap: 20px;
+    grid-template-rows: 160px 160px 160px;
+    justify-content: center;
+
+}
+
+.boxes div{
+    background-color: rgb(245, 245, 245);
+}
+
+
+.image-size {
+    width: 50px;
+    height: 50px;
+    float: right;
+    background-color: rgb(187, 173, 173);   
+}
+
+p {
+  font-weight: bold;
+}
+
+.left{
+    display: flex;
+    top: 6px;
+    text-align: left;
+    float: inline-end;
+}
+
+.right{
+    justify-content: center;
+    font-size: 15px;
+    font-style: bold;
+    padding-top: 6px;
+    text-align: right;
+
+}
+
+/* .grid {
+  float: right;
+  top: 50px;
+} */
+
+.pie-chart{
+  justify-content: center;
+  display: flex;
+  gap: 100px;
+
+}
+
+.pads {
+ background-color: rgb(209, 113, 101);
+
+}
+
+
+
+
+
+
+
+
+
+ /* ======================footer section================= */
+ .footer{
+    position: absolute;
+    bottom: -1800px;
+    width: 1200px;
+    height: 300px;   /* Height of the footer */
+    padding: 150px;
+    background-color: red;
+  }
+  
+  .footer-list{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .footer-items{
+    display: flex;
+  }
+  
+  .diff-links{
+    text-decoration: none;
+    display: flex;
+    color: black;
+  }
+  
+  .headings{
+    font-size: 28px;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .extra-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  input .sub{
+    width: 100%;
+  }
+  
+  .footer-sub {
+    font-size:  20px;
+  }
+   
+  input {
+    width: 250px;
+    padding: 5px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form a {
+    background-color: rgb(0, 0, 0);
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .last-footer {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons {
+    justify-content: space-between;
+  }
+  
+   
